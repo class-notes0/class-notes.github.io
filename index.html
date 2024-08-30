@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1>Shivam Diwans Notes</h1>
+        </div>
+        <div class="nav-right">
+            <button class="menu-toggle">☰ Menu</button>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li>
+                <a href="#" id="notes-link">Notes</a>
+                <ul class="submenu" id="notes-submenu">
+                    <li><a href="biology.html">Biology</a></li>
+                    <li><a href="physics.html">Physics</a></li>
+                    <li><a href="chemistry.html">Chemistry</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="questions-link">Question Bank</a>
+                <ul class="submenu" id="questions-submenu">
+                    <li><a href="biology.html">Biology</a></li>
+                    <li><a href="physics.html">Physics</a></li>
+                    <li><a href="chemistry.html">Chemistry</a></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+
+    <section class="subject-buttons">
+        <button onclick="location.href='subjects/physics.html'" class="subject-button physics">
+            <img src="images/physics.jpg" alt="Physics" class="physics">
+        </button>
+        <button onclick="location.href='subjects/chemistry.html'" class="subject-button chemistry">
+            <img src="images/chemistry.jpg" alt="Chemistry" class="chemistry"> 
+        </button>
+        <button onclick="location.href='subjects/biology.html'" class="subject-button biology">
+            <img src="images/biology.jpg" alt="Biology" class="biology">
+        </button>
+    </section>
+
+    <section class="slideshow">
+        <button class="arrow left-arrow" onclick="prevMessage()">&#10094;</button>
+        <div class="message-container">
+            <div class="message">
+                <p>Dear Students and Aspiring Physicists,
+
+                    Welcome to our comprehensive physics resource, designed with the sole purpose of aiding you in your journey toward success in competitive exams. Whether you are preparing for JEE, NEET, AIIMS, or other challenging examinations, this platform is built to provide you with meticulously curated question banks that cover every essential concept in physics.</p>
+            </div>
+            <div class="message">
+                <p>The questions presented here are crafted to enhance your problem-solving skills, deepen your understanding, and prepare you for the toughest challenges. Every set has been developed with great care, integrating multiple concepts to ensure that your preparation is both thorough and effective. I have poured my heart into creating a resource that is not just a study tool, but a guide that leads you step-by-step toward mastering the subject.</p>
+            </div>
+            <div class="message">
+                <p>I owe a special debt of gratitude to my esteemed teacher, Vishwanath Fegade Sir, whose guidance and unwavering support have been the cornerstone of my educational journey. His profound knowledge and passion for teaching have not only inspired this project but have also shaped the way I approach learning and education. Sir, your influence is deeply ingrained in every question, every explanation, and every bit of content on this platform. This work is as much a reflection of your teachings as it is my effort.</p>
+            </div>
+            <div class="message">
+                <p>To all the students who visit this site, I encourage you to dive deep into the content, practice diligently, and never hesitate to reach out for help. Remember, success in competitive exams is not just about hard work, but also about smart work, and I hope this resource will help you achieve that balance.</p>
+            </div>
+        </div>
+        <button class="arrow right-arrow" onclick="nextMessage()">&#10095;</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
