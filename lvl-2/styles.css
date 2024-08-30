@@ -1,4 +1,6 @@
 /* Basic Reset and Body Styling */
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -151,6 +153,36 @@ td a:hover {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
+}
+/* New styles for footer */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff3e00; /* Change this color to the desired hover color */
 }
 
 /* Responsive Design */
