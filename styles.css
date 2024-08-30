@@ -162,6 +162,46 @@ nav {
 .right-arrow {
     right: 10px;
 }
+/* New styles for important message heading */
+.important-message-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    color: #333;
+}
+
+/* New styles for footer */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff3e00; /* Change this color to the desired hover color */
+}
+
+
+
 
 /* Media Queries */
 @media (max-width: 1200px) {
@@ -258,8 +298,8 @@ nav {
 
 @media (max-width: 400px) {
     .subject-button img {
-        width: 120px;
-        height: 60px;
+        width: 200px;
+        height: 100px;
     }
 
     .slideshow {
