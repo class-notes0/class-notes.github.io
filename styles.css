@@ -24,6 +24,7 @@ nav {
     border: none;
     color: white;
     font-size: 18px;
+    margin-right: 20px;
     cursor: pointer;
 }
 .sidebar {

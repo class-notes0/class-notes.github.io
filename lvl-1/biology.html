@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 - Biology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1>Shivam Diwans Notes</h1>
+        </div>
+        <div class="nav-right">
+            <button class="menu-toggle">☰ Menu</button>
+        </div>
+    </nav>
+
+    <aside class="sidebar">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li>
+                <a href="#" id="notes-link">Notes</a>
+                <ul class="submenu" id="notes-submenu">
+                    <li><a href="/notes/biology.html">Biology</a></li>
+                    <li><a href="/notes/physics.html">Physics</a></li>
+                    <li><a href="/notes/chemistry.html">Chemistry</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="questions-link">Question Bank</a>
+                <ul class="submenu" id="questions-submenu">
+                    <li><a href="/questions/biology.html">Biology</a></li>
+                    <li><a href="/questions/physics.html">Physics</a></li>
+                    <li><a href="/questions/chemistry.html">Chemistry</a></li>
+                </ul>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="content">
+        <h2>Level 1 - Biology</h2>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search chapters...">
+        </div>
+        <table id="chapter-table">
+            <thead>
+                <tr>
+                    <th>Chapter Name</th>
+                    <th>PDF Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example data for Physics -->
+                <tr>
+                    <td>Chapter 1: Introduction to Physics</td>
+                    <td><a href="link-to-physics-chapter1.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+                <tr>
+                    <td>Chapter 2: Mechanics</td>
+                    <td><a href="link-to-physics-chapter2.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+                <!-- Example data for Biology -->
+                <tr>
+                    <td>Chapter 1: Cell Biology</td>
+                    <td><a href="link-to-biology-chapter1.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+                <tr>
+                    <td>Chapter 2: Genetics</td>
+                    <td><a href="link-to-biology-chapter2.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+                <!-- Example data for Chemistry -->
+                <tr>
+                    <td>Chapter 1: Basic Chemistry</td>
+                    <td><a href="link-to-chemistry-chapter1.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+                <tr>
+                    <td>Chapter 2: Organic Chemistry</td>
+                    <td><a href="link-to-chemistry-chapter2.pdf" target="_blank"><span class="pdf-link"></span></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
