@@ -29,13 +29,13 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// Search functionality
+// Updated Search functionality for card layout
 document.getElementById('search').addEventListener('input', function () {
     const query = this.value.toLowerCase();
-    const rows = document.querySelectorAll('#chapter-table tbody tr');
+    const cards = document.querySelectorAll('.card');
 
-    rows.forEach(row => {
-        const chapterName = row.cells[0].textContent.toLowerCase();
-        row.style.display = chapterName.includes(query) ? '' : 'none';
+    cards.forEach(card => {
+        const chapterName = card.querySelector('h2').textContent.toLowerCase();
+        card.style.display = chapterName.includes(query) ? '' : 'none';
     });
 });
